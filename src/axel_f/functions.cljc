@@ -78,7 +78,7 @@
                   :desc "Returns the numeric Unicode map value of the first character in the string provided."
                   :args [{:desc "The string whose first character's Unicode map value will be returned."}]}
 
-   "CONCATENATE" {:impl (partial text/textjoin-fn "" false)
+   "CONCAT" {:impl (partial text/textjoin-fn "" false)
                   :desc "Appends strings to one another."
                   :args [{:desc "The initial string."}
                          {:desc "More strings to append in sequence."
